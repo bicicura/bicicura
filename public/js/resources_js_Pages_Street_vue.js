@@ -30,7 +30,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: 'Street',
   props: {
-    name: String
+    project: Object
   },
   setup: function setup(__props, _ref) {
     var expose = _ref.expose;
@@ -114,6 +114,35 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Shared/Carusel.vue?vue&type=script&setup=true&lang=js":
+/*!********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Shared/Carusel.vue?vue&type=script&setup=true&lang=js ***!
+  \********************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: 'Carusel',
+  props: {
+    project: Object
+  },
+  setup: function setup(__props, _ref) {
+    var expose = _ref.expose;
+    expose();
+    var __returned__ = {};
+    Object.defineProperty(__returned__, '__isScriptSetup', {
+      enumerable: false,
+      value: true
+    });
+    return __returned__;
+  }
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Street.vue?vue&type=template&id=2a7f2d6c":
 /*!***********************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Street.vue?vue&type=template&id=2a7f2d6c ***!
@@ -127,42 +156,49 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 var _hoisted_1 = {
-  "class": "max-w-4xl pb-24 mx-auto"
+  "class": "space-y-24"
 };
 var _hoisted_2 = {
-  "class": "grid grid-cols-3 gap-3"
+  "class": "mx-auto"
 };
 var _hoisted_3 = {
-  "class": "max-w-4xl pb-24 mx-auto space-y-3"
+  "class": "grid grid-cols-3 gap-3"
+};
+var _hoisted_4 = {
+  "class": "mx-auto space-y-3"
 };
 
-var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", {
-  "class": "font-bold text-center uppercase"
+var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", {
+  "class": "font-bold text-center text-white uppercase"
 }, "API Integrations", -1
 /* HOISTED */
 );
 
-var _hoisted_5 = {
+var _hoisted_6 = {
   "class": "grid items-center justify-center grid-cols-2 gap-3"
 };
-var _hoisted_6 = {
+var _hoisted_7 = {
   "class": "w-2/3 ml-auto"
 };
-var _hoisted_7 = {
+var _hoisted_8 = {
   "class": "w-2/3"
 };
-var _hoisted_8 = {
-  "class": "max-w-4xl pb-24 mx-auto mt-24 space-y-6"
+var _hoisted_9 = {
+  "class": "mx-auto space-y-6"
 };
 
-var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
-  "class": "text-3xl font-bold"
+var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
+  "class": "text-3xl font-bold text-white"
 }, "MORE WORK IN ACTION", -1
 /* HOISTED */
 );
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["HeaderProject"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["Carusel"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["CardSmall"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["CardLarge"], {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["HeaderProject"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["Carusel"], {
+    project: $props.project
+  }, null, 8
+  /* PROPS */
+  , ["project"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["CardSmall"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["CardLarge"], {
     title: 'Wireframes',
     text: 'The wide collection of functional components in the UI required an extensive wireframing phase.'
   }, null, 8
@@ -172,9 +208,11 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     text: 'With colors and design guidelines in place, components successfully merged with the playful tone acrross taggie´s brand image.'
   }, null, 8
   /* PROPS */
-  , ["text"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["CardSmallImg"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["CardSmallImg"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["CardSmallImg"])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_3, [_hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["CardSmallImg"])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["CardSmallImg"])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["Testimonial"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_8, [_hoisted_9, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["CardProject"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["NextProjectBar"])])], 64
-  /* STABLE_FRAGMENT */
-  );
+  , ["text"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["CardSmallImg"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["CardSmallImg"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["CardSmallImg"])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_4, [_hoisted_5, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["CardSmallImg"])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["CardSmallImg"])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["Testimonial"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_9, [_hoisted_10, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["CardProject"], {
+    project: $props.project
+  }, null, 8
+  /* PROPS */
+  , ["project"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["NextProjectBar"])])]);
 }
 
 /***/ }),
@@ -192,10 +230,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 var _hoisted_1 = {
-  "class": "pb-24 mx-auto mt-24 space-y-6"
+  "class": "mx-auto space-y-6"
 };
 var _hoisted_2 = {
-  "class": "relative grid w-full max-w-4xl grid-cols-3 gap-3 mx-auto"
+  "class": "relative grid w-full grid-cols-3 gap-3 mx-auto"
 };
 
 var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
@@ -310,14 +348,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 var _hoisted_1 = {
-  "class": "max-w-4xl pb-24 mx-auto"
+  "class": "grid grid-cols-3 gap-3 mx-auto"
 };
 
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"grid grid-cols-3 gap-3\"><div class=\"relative w-full p-3 bg-white border-2 border-black rounded-xl hero-card\"><h4 class=\"text-xs tracking-widest uppercase\">Industry</h4><p class=\"text-xl\">Project managment software</p></div><div class=\"relative w-full p-3 bg-white border-2 border-black rounded-xl hero-card\"><h4 class=\"text-xs tracking-widest uppercase\">CLIENT • Arquitect</h4><p class=\"text-xl\">Adrian Alvarado</p></div><div class=\"relative w-full p-3 bg-white border-2 border-black rounded-xl hero-card\"><h4 class=\"text-xs tracking-widest uppercase\">Industry</h4><p class=\"text-xl\">Project managment software</p></div></div>", 1);
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"relative w-full p-3 bg-white border-2 border-black rounded-xl hero-card\"><h4 class=\"text-xs tracking-widest uppercase\">Industry</h4><p class=\"text-xl\">Project managment software</p></div><div class=\"relative w-full p-3 bg-white border-2 border-black rounded-xl hero-card\"><h4 class=\"text-xs tracking-widest uppercase\">CLIENT • Arquitect</h4><p class=\"text-xl\">Adrian Alvarado</p></div><div class=\"relative w-full p-3 bg-white border-2 border-black rounded-xl hero-card\"><h4 class=\"text-xs tracking-widest uppercase\">Industry</h4><p class=\"text-xl\">Project managment software</p></div>", 3);
 
-var _hoisted_3 = [_hoisted_2];
+var _hoisted_5 = [_hoisted_2];
 function render(_ctx, _cache) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("section", _hoisted_1, _hoisted_3);
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("section", _hoisted_1, _hoisted_5);
 }
 
 /***/ }),
@@ -374,14 +412,25 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 var _hoisted_1 = {
-  "class": "pb-24 mx-auto mt-24 space-y-6"
+  "class": "mx-auto space-y-6"
 };
 
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"relative w-full max-w-4xl mx-auto border-2 border-black hero-card bg-water-green rounded-xl\"><div class=\"absolute top-0 bottom-0 flex items-center justify-center w-20 h-20 my-auto border-2 border-black rounded-full cursor-pointer -left-10 bg-blue\"><svg class=\"w-6 h-6\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M11 19l-7-7 7-7m8 14l-7-7 7-7\"></path></svg></div><div class=\"absolute top-0 bottom-0 flex items-center justify-center w-20 h-20 my-auto border-2 border-black rounded-full cursor-pointer -right-10 bg-blue\"><svg class=\"w-6 h-6\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M13 5l7 7-7 7M5 5l7 7-7 7\"></path></svg></div><img class=\"object-cover object-center w-full h-full rounded-xl\" src=\"/imgs/street.webp\" alt=\"\"></div><div class=\"flex flex-wrap gap-3 mx-auto w-max\"><div class=\"px-3 py-1 bg-white border-2 border-black border-dashed w-max rounded-xl\">Laravel</div><div class=\"px-3 py-1 bg-white border-2 border-black border-dashed w-max rounded-xl\">Livewire</div><div class=\"px-3 py-1 bg-white border-2 border-black border-dashed w-max rounded-xl\">Alpine JS</div><div class=\"px-3 py-1 bg-white border-2 border-black border-dashed w-max rounded-xl\">MySQL</div><div class=\"px-3 py-1 bg-white border-2 border-black border-dashed w-max rounded-xl\">TailwindCSS</div></div>", 2);
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"relative w-full mx-auto border-2 border-black hero-card bg-water-green rounded-xl\"><div class=\"absolute top-0 bottom-0 flex items-center justify-center w-20 h-20 my-auto border-2 border-black rounded-full cursor-pointer -left-10 bg-blue\"><svg class=\"w-6 h-6\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M11 19l-7-7 7-7m8 14l-7-7 7-7\"></path></svg></div><div class=\"absolute top-0 bottom-0 flex items-center justify-center w-20 h-20 my-auto border-2 border-black rounded-full cursor-pointer -right-10 bg-blue\"><svg class=\"w-6 h-6\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M13 5l7 7-7 7M5 5l7 7-7 7\"></path></svg></div><img class=\"object-cover object-center w-full h-full rounded-xl\" src=\"/imgs/streetThumbnail.webp\" alt=\"\"></div>", 1);
 
-var _hoisted_4 = [_hoisted_2];
-function render(_ctx, _cache) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("section", _hoisted_1, _hoisted_4);
+var _hoisted_3 = {
+  "class": "flex flex-wrap gap-3 mx-auto w-max"
+};
+function render(_ctx, _cache, $props, $setup, $data, $options) {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("section", _hoisted_1, [_hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($props.project.tech, function (tech, index) {
+    return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+      "class": "px-3 py-1 text-black bg-white border-2 border-black border-dashed w-max rounded-xl",
+      key: index
+    }, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(tech), 1
+    /* TEXT */
+    );
+  }), 128
+  /* KEYED_FRAGMENT */
+  ))])]);
 }
 
 /***/ }),
@@ -399,22 +448,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 var _hoisted_1 = {
-  "class": "pt-24 mx-auto w-max"
+  "class": "flex items-center gap-3 pt-24 text-white"
 };
 
 var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "flex items-center gap-3"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "w-16 h-12 bg-black rounded-2xl"
-}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
-  "class": "text-3xl font-bold"
-}, "Street Agency")], -1
+  "class": "w-16 h-12 bg-white rounded-2xl"
+}, null, -1
 /* HOISTED */
 );
 
-var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
+var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
+  "class": "text-3xl font-bold"
+}, "Street Agency"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
   "class": "text-sm"
-}, "The first remote platform that facilitates the understanding of ideas through attachable multimedia nodes.", -1
+}, "A model agency in search for true talent.")], -1
 /* HOISTED */
 );
 
@@ -467,14 +514,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 var _hoisted_1 = {
-  "class": "pt-24 pb-24 mx-auto w-max"
+  "class": "relative p-6 mx-auto space-y-6 bg-white border-2 border-black w-max rounded-xl hero-card"
 };
 
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"relative max-w-xl p-6 space-y-6 bg-white border-2 border-black rounded-xl hero-card\"><div class=\"flex items-center gap-6\"><div class=\"relative w-20 h-20 hero-picture-container\"><img class=\"relative object-cover object-center w-full h-full rounded-xl\" src=\"imgs/avatar.webp\" alt=\"\"></div><div><h2 class=\"text-3xl font-bold\">Adrian Alvarado</h2><h4 class=\"text-sm tracking-widest\">CEO</h4></div></div><p class=\"text-xl\">&quot;Juan went above and beyond in terms of quality. The webapp&#39;s functionality is top-notch.&quot;</p></div>", 1);
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex items-center gap-6\"><div class=\"relative w-20 h-20 hero-picture-container\"><img class=\"relative object-cover object-center w-full h-full rounded-xl\" src=\"imgs/pinterest.webp\" alt=\"\"></div><div><h2 class=\"text-3xl font-bold\">Josefína Cúneo</h2><h4 class=\"text-sm tracking-widest\">CEO</h4></div></div><p class=\"text-xl\">&quot;Franco went above and beyond in terms of quality.<br>The webapp&#39;s functionality is top-notch.&quot;</p>", 2);
 
-var _hoisted_3 = [_hoisted_2];
+var _hoisted_4 = [_hoisted_2];
 function render(_ctx, _cache) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("section", _hoisted_1, _hoisted_3);
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("section", _hoisted_1, _hoisted_4);
 }
 
 /***/ }),
@@ -1029,12 +1076,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _Carusel_vue_vue_type_template_id_90a2bf26__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Carusel.vue?vue&type=template&id=90a2bf26 */ "./resources/js/Shared/Carusel.vue?vue&type=template&id=90a2bf26");
-/* harmony import */ var D_xampp_htdocs_bicicura_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+/* harmony import */ var _Carusel_vue_vue_type_script_setup_true_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Carusel.vue?vue&type=script&setup=true&lang=js */ "./resources/js/Shared/Carusel.vue?vue&type=script&setup=true&lang=js");
+/* harmony import */ var D_xampp_htdocs_bicicura_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
-const script = {}
+
+
 
 ;
-const __exports__ = /*#__PURE__*/(0,D_xampp_htdocs_bicicura_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_1__["default"])(script, [['render',_Carusel_vue_vue_type_template_id_90a2bf26__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/Shared/Carusel.vue"]])
+const __exports__ = /*#__PURE__*/(0,D_xampp_htdocs_bicicura_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_Carusel_vue_vue_type_script_setup_true_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Carusel_vue_vue_type_template_id_90a2bf26__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/Shared/Carusel.vue"]])
 /* hot reload */
 if (false) {}
 
@@ -1159,6 +1208,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_CardProject_vue_vue_type_script_setup_true_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"])
 /* harmony export */ });
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_CardProject_vue_vue_type_script_setup_true_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./CardProject.vue?vue&type=script&setup=true&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Shared/CardProject.vue?vue&type=script&setup=true&lang=js");
+ 
+
+/***/ }),
+
+/***/ "./resources/js/Shared/Carusel.vue?vue&type=script&setup=true&lang=js":
+/*!****************************************************************************!*\
+  !*** ./resources/js/Shared/Carusel.vue?vue&type=script&setup=true&lang=js ***!
+  \****************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Carusel_vue_vue_type_script_setup_true_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"])
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Carusel_vue_vue_type_script_setup_true_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Carusel.vue?vue&type=script&setup=true&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Shared/Carusel.vue?vue&type=script&setup=true&lang=js");
  
 
 /***/ }),

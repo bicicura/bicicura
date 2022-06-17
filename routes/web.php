@@ -27,7 +27,7 @@ Route::get('/', function () {
         'projects' => [
             'street' => [
                 'title' => 'Street Agency', 
-                'tech' => ['0' => 'Laravel', '1' => 'Livewire', '2' => 'Alpine JS', '3' => 'MySql', '4' => 'Tailwind'],
+                'tech' => ['0' => 'Laravel', '1' => 'Livewire', '2' => 'Alpine JS', '3' => 'MySQL', '4' => 'Tailwind'],
                 'thumbnail' => 'streetThumbnail.webp',
                 'about' => 'An agency which struggles to find a new generation of models which prioratize and celebrates diversity, authentisiy and character.',
                 'pathname' => 'street-agency'
@@ -41,7 +41,7 @@ Route::get('/', function () {
             ],
             'saigon' => [
                 'title' => 'Saigon',
-                'tech' => ['0' => 'Laravel', '1' => 'Livewire', '2' => 'Alpine JS', '3' => 'MySql', '4' => 'Tailwind'],
+                'tech' => ['0' => 'Laravel', '1' => 'Livewire', '2' => 'Alpine JS', '3' => 'MySQL', '4' => 'Tailwind'],
                 'thumbnail' => 'saigonThumbnail.jpg',
                 'about' => 'Saigón has a creative team devoted to casting design and production for local and global projects.',
                 'pathname' => 'saigon'
@@ -59,5 +59,12 @@ Route::get('/saigon', function () {
 });
 
 Route::get('/street-agency', function () {
-    return Inertia::render('Street', ['name' => 'Street Agency']);
+    return Inertia::render('Street', ['project' => [
+        'title' => 'Street Agency', 
+        'tech' => ['0' => 'Laravel', '1' => 'Livewire', '2' => 'Alpine JS', '3' => 'MySQL', '4' => 'Tailwind'],
+        'thumbnail' => 'streetThumbnail.webp',
+        'about' => 'An agency which struggles to find a new generation of models which prioratize and celebrates diversity, authentisiy and character.',
+        'pathname' => 'street-agency',
+        ]
+    ]);
 });

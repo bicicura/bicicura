@@ -8,15 +8,15 @@
             <CardPresentation />
         </section>
        
-        <section class="max-w-4xl mx-auto mt-24 space-y-16 my-36">
-            <h2 class="text-3xl font-bold text-center">LATEST PROJECTS</h2>
+        <section class="mx-auto mt-24 space-y-16 my-36">
+            <h2 class="text-3xl font-bold text-center text-white">LATEST PROJECTS</h2>
             <div class="space-y-20">
                 <CardProject v-for="(project, index) in projects" :key="index" :project="project" />
             </div>
         </section>
 
         <section class="mx-auto space-y-16 mb-36 w-max">
-            <h2 class="text-3xl font-bold text-center">CONTACT</h2>
+            <h2 class="text-3xl font-bold text-center text-white">CONTACT</h2>
             <ContactForm />
         </section>
 </template>

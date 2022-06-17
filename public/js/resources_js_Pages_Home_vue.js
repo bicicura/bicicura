@@ -90,11 +90,11 @@ var _hoisted_2 = {
   "class": "w-full pt-12 mx-auto"
 };
 var _hoisted_3 = {
-  "class": "max-w-4xl mx-auto mt-24 space-y-16 my-36"
+  "class": "mx-auto mt-24 space-y-16 my-36"
 };
 
 var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
-  "class": "text-3xl font-bold text-center"
+  "class": "text-3xl font-bold text-center text-white"
 }, "LATEST PROJECTS", -1
 /* HOISTED */
 );
@@ -107,7 +107,7 @@ var _hoisted_6 = {
 };
 
 var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
-  "class": "text-3xl font-bold text-center"
+  "class": "text-3xl font-bold text-center text-white"
 }, "CONTACT", -1
 /* HOISTED */
 );
@@ -154,7 +154,7 @@ var _hoisted_1 = {
   "class": "relative max-w-xl p-6 mx-auto space-y-6 text-black border-2 border-black bg-slate-50 rounded-3xl hero-card"
 };
 
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex items-center gap-6\"><div class=\"relative z-10 w-20 h-20 hero-picture-container\"><img class=\"relative object-cover object-center w-full h-full border-2 border-black rounded-xl\" src=\"/imgs/avatar.webp\" alt=\"\"></div><div><h2 class=\"text-3xl font-bold\">Franco La Mattina</h2><h4 class=\"text-sm tracking-widest\">FULL STACK WEB DEVELOPER</h4></div></div><div class=\"text-xl\"><p class=\"font-light\">I believe in making <span class=\"font-bold\">cute sites that perform</span>.</p><p class=\"italic font-light\">Enjoy your visit!</p></div><div class=\"relative z-10 flex items-baseline justify-between\"><h5 class=\"text-sm font-bold\">23 y/o. Based in Buenos Aires,<br>Argentina.</h5><button class=\"relative px-8 py-2 text-base text-white border-2 border-black bg-blue rounded-xl btn-hero\" type=\"button\">Message</button></div>", 3);
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex items-center gap-6\"><div class=\"relative z-10 w-20 h-20 hero-picture-container\"><img class=\"relative object-cover object-center w-full h-full border-2 border-black rounded-xl\" src=\"/imgs/avatar.webp\" alt=\"\"></div><div><h2 class=\"text-3xl font-bold\">Franco La Mattina</h2><h4 class=\"text-sm tracking-widest\">FULL STACK WEB DEVELOPER</h4></div></div><div class=\"text-xl\"><p class=\"font-light\">I enjoy making <span class=\"font-bold\">cute sites that perform</span>.</p><p class=\"italic font-light\">Enjoy your visit!</p></div><div class=\"relative z-10 flex items-baseline justify-between\"><h5 class=\"text-sm font-bold\">23 y/o. Based in Buenos Aires,<br>Argentina.</h5><button class=\"relative px-8 py-2 text-base text-white border-2 border-black bg-blue rounded-xl btn-hero\" type=\"button\">Message</button></div>", 3);
 
 var _hoisted_5 = [_hoisted_2];
 function render(_ctx, _cache) {
@@ -257,7 +257,7 @@ var _hoisted_1 = {
   "class": "relative grid max-w-xl grid-cols-2 gap-6 p-6 bg-white border-2 border-black rounded-xl hero-card"
 };
 
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"grid grid-rows-3 gap-4\"><label class=\"block\" for=\"name\"><span class=\"text-sm font-bold\">Full name</span><input type=\"text\" id=\"name\" class=\"block p-3 text-base border-2 border-black rounded-xl\" placeholder=\"Full name\"></label><label class=\"block\" for=\"email\"><span class=\"text-sm font-bold\">Email</span><input type=\"text\" id=\"email\" class=\"block p-3 text-base border-2 border-black rounded-xl\" placeholder=\"Email address\"></label><label class=\"block\" for=\"phone\"><span class=\"text-sm font-bold\">Phone</span><input type=\"text\" id=\"phone\" class=\"block p-3 text-base border-2 border-black rounded-xl\" placeholder=\"Phone number\"></label></div><div class=\"flex flex-col justify-between gap-12\"><label for=\"message\" class=\"flex flex-col items-stretch h-full row-span-2 justify-items-stretch\"><span class=\"text-sm font-bold\">Message</span><textarea class=\"block w-full h-full p-3 border-2 border-black rounded-xl border-xl\" name=\"\" id=\"message\" placeholder=\"Your message here...\"></textarea></label><div class=\"relative z-10 block rows-span-1\"><button class=\"relative w-full px-8 py-2 text-base text-white border-2 border-black bg-blue rounded-xl btn-hero\" type=\"button\">Message</button></div></div>", 2);
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"grid grid-rows-3 gap-4\"><label class=\"block\" for=\"name\"><span class=\"text-sm font-bold\">Full name*</span><input type=\"text\" id=\"name\" class=\"block p-3 text-base border-2 border-black rounded-xl\" placeholder=\"Full name\"></label><label class=\"block\" for=\"email\"><span class=\"text-sm font-bold\">Email*</span><input type=\"text\" id=\"email\" class=\"block p-3 text-base border-2 border-black rounded-xl\" placeholder=\"Email address\"></label><label class=\"block\" for=\"phone\"><span class=\"text-sm font-bold\">Phone</span><input type=\"text\" id=\"phone\" class=\"block p-3 text-base border-2 border-black rounded-xl\" placeholder=\"Phone number\"></label></div><div class=\"flex flex-col justify-between gap-12\"><label for=\"message\" class=\"flex flex-col items-stretch h-full row-span-2 justify-items-stretch\"><span class=\"text-sm font-bold\">Message*</span><textarea class=\"block w-full h-full p-3 border-2 border-black rounded-xl border-xl\" name=\"\" id=\"message\" placeholder=\"Your message here...\"></textarea></label><div class=\"relative z-10 block rows-span-1\"><button class=\"relative w-full px-8 py-2 text-base text-white border-2 border-black bg-blue rounded-xl btn-hero\" type=\"button\">Message</button></div></div>", 2);
 
 var _hoisted_4 = [_hoisted_2];
 function render(_ctx, _cache) {

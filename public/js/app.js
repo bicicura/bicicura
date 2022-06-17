@@ -19584,13 +19584,13 @@ var _hoisted_1 = {
   "class": "p-6"
 };
 var _hoisted_2 = {
-  "class": "max-w-6xl mx-auto"
+  "class": "mx-auto"
 };
 
 var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("footer", {
   "class": "pb-8"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
-  "class": "font-bold text-center text-md"
+  "class": "font-bold text-center text-white text-md"
 }, "This web has been proudly crafted with Laravel, Vue & Inertia.js")], -1
 /* HOISTED */
 );

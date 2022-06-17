@@ -10,7 +10,7 @@
             </div>
         </div>
         <div class="text-xl">
-            <p class="font-light">I believe in making <span class="font-bold">cute sites that perform</span>.</p>
+            <p class="font-light">I enjoy making <span class="font-bold">cute sites that perform</span>.</p>
             <p class="italic font-light">Enjoy your visit!</p>
         </div>
         <div class="relative z-10 flex items-baseline justify-between">
