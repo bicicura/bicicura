@@ -26,6 +26,11 @@ module.exports = {
                 'blue': '#493BF0',
                 'water-green': '#00BFA6',
                 'yellow': '#F5B21F',
+                'darker-pink' : '#2E0249',
+                'dark-pink' : '#570A57',
+                'neutral-pink' : '#A91079',
+                'light-pink' : '#F806CC',
+                'complementary' : '#11F76A',
             },
             fontSize: {
                 xxs: ['0.625rem', { lineHeight: '1rem' }],

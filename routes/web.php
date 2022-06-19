@@ -26,7 +26,7 @@ Route::get('/', function () {
     return Inertia::render('Home', [
         'projects' => [
             'street' => [
-                'title' => 'Street Agency', 
+                'title' => 'Street Agency',
                 'tech' => ['0' => 'Laravel', '1' => 'Livewire', '2' => 'Alpine JS', '3' => 'MySQL', '4' => 'Tailwind'],
                 'thumbnail' => 'streetThumbnail.webp',
                 'about' => 'An agency which struggles to find a new generation of models which prioratize and celebrates diversity, authentisiy and character.',

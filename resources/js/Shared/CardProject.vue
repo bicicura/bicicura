@@ -1,17 +1,29 @@
 <template>
-  <div class="relative grid w-full grid-cols-2 mx-auto text-black border-2 is-admin hero-card bg-water-green rounded-3xl">
-        <div class="flex items-center h-full overflow-hidden bg-gray-800 rounded-3xl">
-            <img class="object-contain w-full h-full" v-bind:src="'/imgs/' + project.thumbnail" alt="" >
+  <div class="relative flex w-full gap-6 mx-auto text-white border-2 border-light-pink hero-card bg-dark-pink rounded-3xl">
+        <div class="max-w-sm">
+            <div class="flex items-center h-full overflow-hidden bg-gray-800 rounded-3xl">
+            <img class="object-cover w-full h-full" v-bind:src="'/imgs/' + project.thumbnail" alt="" >
         </div>
-        <div class="pl-6">
-            <div class="w-10/12 p-6 space-y-6">
-                <h2 class="text-3xl font-bold ">{{ project.title }}</h2>
-                <p>{{ project.about }}</p>
-                <div class="flex flex-wrap gap-3">
-                    <div class="px-3 py-1 bg-white border-2 border-black border-dashed w-max rounded-xl" v-for="(tech, index) in project.tech" :key="index">{{ tech }}</div>
+       
+        </div>
+        <div class="w-8/12 p-6">
+            <div class="flex flex-col items-baseline justify-between gap-y-8">
+                <div class="space-y-2">
+                    <h2 class="text-3xl font-bold">{{ project.title }}</h2>
+                    <p style="width: 35ch">{{ project.about }}</p>
                 </div>
-                <div class="relative z-10">
-                    <Link v-bind:href="'/' + project.pathname" class="relative px-8 py-2 text-base font-bold text-black border-2 border-black bg-yellow rounded-xl btn-hero" type="button">view project</Link>
+                <div class="space-y-2">
+                    <h3 class="text-xl font-bold">Technology Stack</h3>
+                    <div class="flex flex-wrap gap-3">
+                        <div class="px-3 py-1 border-2 border-black border-dashed bg-light-pink w-max rounded-xl" v-for="(tech, index) in project.tech" :key="index">{{ tech }}</div>
+                    </div>
+                </div>
+                 <div class="relative z-10 flex items-baseline justify-between gap-4">
+                    <Link v-bind:href="'/' + project.pathname" class="relative px-8 py-2 text-base font-bold text-black border-2 border-black bg-complementary rounded-xl btn-hero" type="button">See more</Link>
+                    <div class="flex gap-6 text-sm">
+                        <a class="hover:underline" href="">Live Website</a>
+                        <a class="hover:underline" href="">GitHub Repo</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -25,12 +37,5 @@ defineProps({
 </script>
 
 <style>
-    .is-admin {
-        border-image-source: linear-gradient(266deg, #21c8f6 98%, #637bff -52%);
-        border-image-slice: 1;
-        background-image: linear-gradient(to bottom, rgb(0 191 166), rgb(0 191 166)), linear-gradient(266deg, #21c8f6 98%, #637bff -52%);
-        background-origin: border-box;
-        background-clip: content-box, border-box;
-        border-color: transparent;
-    }
+   
 </style>

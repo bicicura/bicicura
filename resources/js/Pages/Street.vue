@@ -2,7 +2,7 @@
 <div class="space-y-24">
     <HeaderProject />
 
-    <Carusel :project="project" />
+    <Carusel />
 
     <CardSmall />
     
@@ -49,10 +49,11 @@ import Testimonial from '../Shared/Testimonial';
 import CardProject from '../Shared/CardProject';
 import NextProjectBar from '../Shared/NextProjectBar';
 import HeaderProject from '../Shared/HeaderProject';
+import { provide } from 'vue';
     
-defineProps({
-    project: Object,
-});
+let props = defineProps({ project: Object, });
+
+provide('project', props.project);
     
 </script>
 

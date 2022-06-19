@@ -20,9 +20,9 @@
 </template>
 
 <script setup>
-defineProps({
-    project: Object
-})
+import { inject } from 'vue';
+
+let project = inject('project');
 </script>
 
 <style>

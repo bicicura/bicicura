@@ -8,7 +8,7 @@
     <script src="{{ mix('/js/app.js') }}" defer></script>
     @inertiaHead
   </head>
-  <body style="background: #182031;">
+  <body style="background: #2E0249;">
     <main class="max-w-5xl mx-auto">
       @inertia
     </main>

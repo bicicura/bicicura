@@ -20,8 +20,8 @@
                 <textarea class="block w-full h-full p-3 border-2 border-black rounded-xl border-xl" name="" id="message" placeholder="Your message here..."></textarea>
             </label>
             
-            <div class="relative z-10 block rows-span-1">
-                <button class="relative w-full px-8 py-2 text-base text-white border-2 border-black bg-blue rounded-xl btn-hero" type="button">Message</button>
+            <div class="relative z-10 block mb-1 rows-span-1">
+                <button class="relative w-full px-8 py-2 font-bold border-2 border-black bg-complementary rounded-xl btn-hero" type="button">Submit</button>
             </div>
         </div>
     </form>
